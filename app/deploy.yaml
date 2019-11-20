@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: amd
+  namespace: kube-ops 
+spec:
+  template:
+    metadata:
+      labels:
+        app: amd
+    spec:
+      imagePullSecrets:
+      - name: registry-key
+      containers:
+      - image: harbor.tydicdev.com/oab/amd:86
+        imagePullPolicy: IfNotPresent
+        name: amd
+

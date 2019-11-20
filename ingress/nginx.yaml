@@ -1,0 +1,16 @@
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: traefik-nginx-test
+  namespace: default
+spec:
+  rules:
+  - host: traefik-web-nginx
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: nginx
+          servicePort: 88
+
