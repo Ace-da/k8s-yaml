@@ -1,0 +1,1000 @@
+  189  cd /data/
+  190  ll
+  191  cd yaml/
+  192  ll
+  193  cd app/
+  194  ll
+  195  cd /data/
+  196  ll
+  197  cd sjn/
+  198  ll
+  199  vim deploy.yaml 
+  200  cd ..
+  201  ll
+  202  cd yaml/
+  203  ll
+  204  cd app
+  205  ll
+  206  vim deploy.yaml 
+  207  kubectl get secret
+  208  kubectl get secret -n oab-test
+  209  kubectl get secret --all-namwspaces
+  210  kubectl get secret --all-namespaces
+  211  ll
+  212  vim deploy.yaml 
+  213  kubectl get pod -n kube-ops
+  214  vim deploy.yaml 
+  215  kubectl get pod -n kube-ops
+  216  kubectl get pod -n --all-name-space
+  217  kubectl get pod -n --all-namespaces
+  218  kubectl get pods -n --all-namespaces
+  219  kubectl get pods --all-namespaces
+  220  ll
+  221  kubectl apply -f deploy.yaml 
+  222  kubectl get pods --all-namespaces
+  223  vim deploy.yaml 
+  224  kubectl delete -f deploy.yaml 
+  225  kubectl apply -f deploy.yaml 
+  226  vim deploy.yaml 
+  227  kubectl delete -f deploy.yaml 
+  228  kubectl get pod
+  229  kubectl get pod -o wide
+  230  ps -ef|grep kubelet
+  231  kubectl get sc
+  232  kubectl get cs
+  233  ps -ef|grep apiserver
+  234  lsof -i:10250
+  235  netstat -tunlp|grep 10250
+  236  netstat -tunlp|grep 10255
+  237  vmstat
+  238  cd /data/
+  239  ll
+  240  cd traefik/
+  241  ll
+  242  cd .git
+  243  ll
+  244  cd config 
+  245  vim config 
+  246  ll
+  247  cd ..
+  248  git branch
+  249  cd .git
+  250  vim config 
+  251  ll
+  252  cd ..
+  253  ll
+  254  cd examples/
+  255  ll
+  256  vim compose-traefik.yml 
+  257  cd k8s
+  258  ll
+  259  kubectl get svc
+  260  ll
+  261  vim traefik-ds.yaml 
+  262  kubectl get svc -n kube-system
+  263  kubectl get pod -n kube-system
+  264  ll
+  265  vim traefik-ds.yaml 
+  266  diff traefik-deployment.yaml traefik-ds.yaml 
+  267  vim traefik-deployment.yaml 
+  268  vim traefik-ds.yaml 
+  269  kubectl get pod -n kube-system
+  270  kubectl get pod -n kube-system -o wide
+  271  kubectl get Deployment
+  272  kubectl get Deployment --allnemespaces
+  273  kubectl get Deployment --all-nemespaces
+  274  kubectl get Deployment --all-namespaces
+  275  ll
+  276  vim ui.yaml 
+  277  pwd
+  278  cd /data/
+  279  ll
+  280  cd ingress/
+  281  ll
+  282  vim jenkins3.yaml 
+  283  diff dashboard.yaml jenkins3.yaml 
+  284  kubectl get svc -n kube-ops
+  285  kubectl get svc 
+  286  kubectl get ingress 
+  287  kubectl delete ingress traefik-dashboard
+  288  kubectl get ingress 
+  289  ls
+  290  kubectl  get svc -n kube-system
+  291  kubectl  get svc
+  292  kubectl  get ing
+  293  kubectl  get ing --all-namespace
+  294  kubectl  get ing --all-namespaces
+  295  kubectl  get svc -n kube-ops
+  296  ls
+  297  cd /data/
+  298  ls
+  299  cd yaml/
+  300  ls
+  301  cd dashboard/
+  302  ls
+  303  vim kubernetes-dashboard-port.yaml
+  304  kubectl  apply -f kubernetes-dashboard-port.yaml 
+  305  kubectl  get pod -o wide 
+  306  kubectl  get pod -o wide  -n kube-sys
+  307  kubectl  get pod -o wide  -n kube-system
+  308  ls
+  309  vim kubernetes-dashboard.yaml 
+  310  cd ..
+  311  ls
+  312  cd ..
+  313  ls
+  314  cd ingress/
+  315  ls
+  316  vim dashboard.yaml 
+  317  kubectl  apply -f dashboard.yaml 
+  318  ls
+  319  cd ..
+  320  ls
+  321  cd yaml/
+  322  ls
+  323  cd dashboard/
+  324  ls
+  325  vim kubernetes-dashboard-port.yaml 
+  326  ls
+  327  kubectl  get pod -n kube-system 
+  328  ls
+  329  vim kubernetes-dashboard-port.yaml 
+  330  kubectl  get svc -n kube-system
+  331  kubectl  get pod  -n kube-system -o wide
+  332  history 
+  333  ps -ef 
+  334  top 
+  335  ls
+  336  cd /data/
+  337  ls
+  338  cd yaml/
+  339  ls
+  340  mkdir dashboard
+  341  cd dashboard/
+  342  ls
+  343  wget http://mirror.faasx.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
+  344  kubectl apply -f http://mirror.faasx.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
+  345  kubectl  get svc -n kube-system 
+  346  ls
+  347  cd ..
+  348  ls
+  349  cd ..
+  350  ls
+  351  cd traefik/
+  352  ls
+  353  cd script/
+  354  ls
+  355  ll
+  356  cd ..
+  357  ls
+  358  cd de
+  359  cd ex
+  360  cd examples/
+  361  ls
+  362  ll
+  363  cd ..
+  364  ls
+  365  cd ..
+  366  ls
+  367  ll
+  368  cd yaml/
+  369  ls
+  370  cd jenkins/
+  371  ls
+  372  ll
+  373  cd ..
+  374  ls
+  375  cd sj
+  376  cd app/
+  377  ls
+  378  cd ..
+  379  ls
+  380  cd share/
+  381  ls
+  382  cd ..
+  383  ls
+  384  cd jenkins/
+  385  ls
+  386  ll
+  387  cd sjn/
+  388  ls
+  389  cd ..
+  390  ls
+  391  cd ..
+  392  ls
+  393  cd ..
+  394  ls
+  395  cd traefik/
+  396  ls
+  397  cd examples/
+  398  ls
+  399  ll
+  400  ls -rt 
+  401  ls -lrt 
+  402  ls
+  403  ll
+  404  cd k8s
+  405  ls
+  406  ll
+  407  cd ..
+  408  ls
+  409  cd ..
+  410  ls
+  411  cd ..
+  412  ls
+  413  ll
+  414  du -sh * 
+  415  du -sh 
+  416  ls
+  417  pwd
+  418  cd yaml/
+  419  ls
+  420  cd jenkins/
+  421  ls
+  422  ll
+  423  cd ..
+  424  ls
+  425  cd share/
+  426  ls
+  427  git clone https://github.com/zhuchuangang/k8s-install-scripts.git
+  428  ls
+  429  cd k8s-install-scripts/
+  430  ls
+  431  git remote add wangda https://github.com/Ace-da/k8s-install-scripts.git
+  432  git push -u wangda master 
+  433  ls
+  434  ll
+  435  cd .git
+  436  ls
+  437  vim config 
+  438  ls
+  439  cd ..
+  440  ls
+  441  ll
+  442  cd ..
+  443  ls
+  444  ll
+  445  cd ..
+  446  ls
+  447  ll
+  448  du -sh 
+  449  cd app/
+  450  ls
+  451  cd ..
+  452  ls
+  453  cd harbor/
+  454  ls
+  455  ll
+  456  cd harbor
+  457  ls
+  458  cd ..
+  459  ls
+  460  cd harbor_DB/
+  461  ls
+  462  ll
+  463  cd ..
+  464  ls
+  465  ll
+  466  cd sjn/
+  467  ls
+  468  ll
+  469  cd ..
+  470  ls
+  471  cd ..
+  472  ls
+  473  ll
+  474  ls
+  475  cd ..
+  476  ls
+  477  cd git/
+  478  ls
+  479  cd ..
+  480  ls
+  481  cd ingress/
+  482  ls
+  483  cd ../k
+  484  cd ../k8s/
+  485  ls
+  486  cd ..
+  487  ls
+  488  cd k8s/
+  489  ls
+  490  cd ..
+  491  ls
+  492  cd kubernetes/
+  493  ls
+  494  cd ..
+  495  ls
+  496  cd traefik/
+  497  ls
+  498  ll
+  499  ls -lrt 
+  500  cd examples/
+  501  ls
+  502  ls -lrt 
+  503  cd k8s
+  504  ls
+  505  kubectl  get ing 
+  506  kubectl  get ing  -o wide
+  507  ll
+  508  cd ..
+  509  ls
+  510  cd ..
+  511  ls
+  512  cd ..
+  513  ls
+  514  cd ingress/
+  515  ls
+  516  vim nginx.yaml 
+  517  cp nginx.yaml  dashboard.yaml
+  518  vim dashboard.yaml 
+  519  vim jenkins.yaml 
+  520  cat dashboard.yaml 
+  521  vim dashboard.yaml 
+  522  kubectl   apply -f dashboard.yaml 
+  523  kubectl  get ing 
+  524  vim dashboard.yaml 
+  525  ls
+  526  cat jenkins.yaml 
+  527  ls
+  528  kubectl  get ing 
+  529  kubectl  get ing  -n kube-system 
+  530  kubectl  get ing  --all-namespaces
+  531  kubectl  get pod -n kube-system -o wide
+  532  kubectl  get ing
+  533  ls
+  534  cat dashboard.yaml 
+  535  kubectl  get pod -n kube-system
+  536  kubectl  get pod -n kube-system -o wide
+  537  kubectl  get svc -n kube-system -o wide
+  538  kubectl  get svc  -o wide
+  539  kubectl  get svc  -o wide --all-namespaces
+  540  ls
+  541  vim jenkins3.yaml 
+  542  vim dashboard.yaml 
+  543  kubectl  apply -f dashboard.yaml 
+  544  cat dashboard.yaml 
+  545  vim dashboard.yaml 
+  546  kubectl  apply -f dashboard.yaml 
+  547  vim dashboard.yaml 
+  548  kubectl create serviceaccount dashboard-admin -n kube-system
+  549  kubectl create clusterrolebinding dashboard-admin --clusterrole=cluster-admin --serviceaccount=kube-system:dashboard-admin
+  550  kubectl describe secrets -n kube-system $(kubectl -n kube-system get secret | awk '/dashboard-admin/{print $1}')
+  551  kubectl  get ing 
+  552  kubectl  get ing  -n kube-ops
+  553  kubectl  delete ing traefik-jenkins -n kube-ops
+  554  ls
+  555  cd ..
+  556  ls
+  557  mv ingress/ yaml/
+  558  ls
+  559  cd yaml/
+  560  ls
+  561  ll
+  562  cd ..
+  563  ls
+  564  cd traefik/
+  565  ls
+  566  ll
+  567  cd ..
+  568  ls
+  569  cd yaml/
+  570  ls
+  571  ll
+  572  cd app/
+  573  ls
+  574  ll
+  575  cd ..
+  576  ls
+  577  du -sh 
+  578  du -sh * 
+  579  cd harbor/
+  580  ls
+  581  ll
+  582  du -sh * 
+  583  cd harbor
+  584  ls
+  585  l
+  586  ll
+  587  cd ..
+  588  ls
+  589  du -sh * 
+  590  cd sjn/
+  591  ls
+  592  ll
+  593  cd harbor-master/
+  594  ls
+  595  ll
+  596  cd 
+  597  ls
+  598  cd /data/
+  599  ls
+  600  cd yaml/
+  601  ls
+  602  cd dashboard/
+  603  ls
+  604  vim kubernetes-dashboard.yaml 
+  605  kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print $1}')
+  606  ls
+  607  cd 
+  608  mkdir git 
+  609  cd git 
+  610  git clone --bare  https://bitbucket.atcs.com/scm/dos/dos.git
+  611  ls
+  612  cd dos.git/
+  613  ls
+  614  git push --mirror https://code-management.mercedes-benz.com.cn/dsd/atcs_dos_client.git
+  615  cd ..
+  616  git clone --bare  https://hang.hl.li:Daimleratcsreport@bitbucket.atcs.com/scm/dos/dos-api.git
+  617  cd dos-api.git/
+  618  git push --mirror https://code-management.mercedes-benz.com.cn/dsd/atcs_dos_api.git
+  619  cd ..
+  620  ls
+  621  git clone --bare  https://hang.hl.li:Daimleratcsreport@bitbucket.atcs.com/scm/dos/dos-data-fetching-api.git
+  622  cd dos-data-fetching-api.git/
+  623  git push --mirror https://code-management.mercedes-benz.com.cn/dsd/atcs_dos_data_fetching_api.git
+  624  cd 
+  625  cd git 
+  626  ls
+  627  kubectl  get secret 
+  628  kubectl  get secret  --all-namespace
+  629  kubectl  get secret  --all-namespaces
+  630  kubectl  get secret  secret registry-key
+  631  history |grep registry-key
+  632  cd /data/
+  633  ls
+  634  cd git/
+  635  ls
+  636  cd 
+  637  ls
+  638  cd ya
+  639  cd /data/
+  640  ls
+  641  cd yaml/
+  642  ls
+  643  cd app/
+  644  ls
+  645  vim deploy.yaml 
+  646  ls
+  647  kubectl  get svc
+  648  ip a
+  649  ls
+  650  cd /data/
+  651  ls
+  652  cd 
+  653  cd git/
+  654  ls
+  655  kubectl get svc -n kube-sys
+  656  kubectl get svc -n kube-system
+  657  kubectl  get pod -o wide 
+  658  kubectl  get svc  -o wide 
+  659  kubectl  delete svc nginx 
+  660  kubectl  get svc  -o wide 
+  661  kubectl  delete svc nginx-service
+  662  kubectl  delete svc tomcat-service 
+  663  free -m 
+  664  cd /data/
+  665  ll
+  666  cd kubernetes/
+  667  ll
+  668  cd conf/
+  669  ll
+  670  vim kube-controller-manager 
+  671  kubectl get sc
+  672  kubectl get cs
+  673  kubectl get node
+  674  vim /etc/passwd
+  675  history 
+  676  cd /var/run/
+  677  ll
+  678  find / -name kubernetes.io
+  679  cd /data/
+  680  ll
+  681  cd harbor/
+  682  ll
+  683  cd storage/
+  684  ll
+  685  cd ..
+  686  ll
+  687  cd registry/
+  688  ll
+  689  cd ..
+  690  ll
+  691  cd logs/
+  692  ll
+  693  cd ..
+  694  ll
+  695  cd .
+  696  cd ..
+  697  ll
+  698  cd yaml/
+  699  ll
+  700  cd harbor/
+  701  ll
+  702  cd harbor
+  703  ll
+  704  cd ..
+  705  docker ps
+  706  cd ..
+  707  ll
+  708  cd jenkins/
+  709  ll
+  710  cd sjn/
+  711  ll
+  712  vim jenkins2.yaml 
+  713  clear
+  714  cd /data/
+  715  ll
+  716  cd yaml/
+  717  ll
+  718  cd jenkins/
+  719  ll
+  720  cd sjn/
+  721  ll
+  722  vim jenkins2.yaml 
+  723  telnet 123.57.130.56 22
+  724  kubectl get cs
+  725  ps -ef|grep api
+  726  ping kubernetes.default.svc
+  727  kubectl get pod
+  728  kubectl get pod svc
+  729  kubectl get svc
+  730  kubectl get pod -n kube-ops
+  731  kubectl get pod -n kube-ops -o wide
+  732  ll
+  733  cd /data/
+  734  ll
+  735  cd k8s/
+  736  ll
+  737  cd ..
+  738  ll
+  739  cd yaml/
+  740  ll
+  741  mkdir Prometheus
+  742  ll
+  743  cd Prometheus/
+  744  ll
+  745  cd ..
+  746  ll
+  747  cd jenkins/
+  748  ll
+  749  cd sjn
+  750  ll
+  751  cd ..
+  752  ll
+  753  cd ..
+  754  ll
+  755  cd Prometheus/
+  756  ll
+  757  vim prometheus.yaml
+  758  clear
+  759  ll
+  760  cd /data/
+  761  ll
+  762  cd yaml/
+  763  ll
+  764  cd Prometheus/
+  765  ll
+  766  vim prometheus.yaml 
+  767  cd /data/
+  768  ll
+  769  cd yaml/
+  770  ll
+  771  cd Prometheus/
+  772  ll
+  773  vim node-exporter.yaml 
+  774  cd ..
+  775  l
+  776  cd ll
+  777  cd ..
+  778  ll
+  779  cd yaml/
+  780  ll
+  781  cd jenkins/
+  782  ll
+  783  cd sjn/
+  784  ll
+  785  vim jenkins2.yaml 
+  786  find / -name jenkins4
+  787  cd /data/k8s/
+  788  cd jenkins4/
+  789  l
+  790  ll
+  791  cd ..
+  792  ll
+  793  kubectl get cs
+  794  kubectl get sc
+  795  kubectl get opc
+  796  kubectl get pv
+  797  kubectl get pvc
+  798  kubectl get pvc -n kube-ops
+  799  cd /data/
+  800  ll
+  801  cd yaml/
+  802  ll
+  803  cd NFS/
+  804  ll
+  805  cd ..
+  806  ll
+  807  cd jenkins/
+  808  ll
+  809  cd sjn/
+  810  ll
+  811  vim opspvc.yaml 
+  812  cd /data/
+  813  lll
+  814  ll
+  815  cd yaml/
+  816  ll
+  817  cd Prometheus/
+  818  ll
+  819  vim prometheus.yaml 
+  820  cp prometheus.yaml prometheus-config.yaml
+  821  ll
+  822  rm -RF prometheus.yaml 
+  823  rm -Rf prometheus.yaml 
+  824  kubectl create -f prometheus-config.yaml
+  825  vim prometheus-config.yaml 
+  826  kubectl get pod -n kube-ops
+  827  kubectl -n kube-ops svc
+  828  kubectl -n kube-ops get svc
+  829  vim prometheus-config.yaml 
+  830  kubectl delete -f prometheus-config.yaml
+  831  kubectl get configmap -n kube-ops
+  832  kubectl create -f prometheus-config.yaml
+  833  kubectl get configmap -n kube-ops
+  834  kubectl get configmap -n kube-ops -o wide
+  835  vim node-exporter.yaml
+  836  kubectl create -f node-exporter.yaml
+  837  kubectl get DaemonSet -n kube-ops
+  838  kubectl get Service -n kube-ops
+  839  ll
+  840  vim prometheus-deploy.yaml
+  841  free -g
+  842  vim prometheus-deploy.yaml
+  843  cd /etc/
+  844  ll
+  845  ls -lrt 
+  846  cd /data/
+  847  ll
+  848  cd yaml/
+  849  ll
+  850  cd jenkins/
+  851  ll
+  852  cd sjn/
+  853  l
+  854  ll
+  855  vim jenkins2.yaml 
+  856  cd /data/
+  857  cd /var/
+  858  ll
+  859  cd /data/
+  860  ll
+  861  cd yaml/
+  862  ll
+  863  cd jenkins/
+  864  ll
+  865  cd sjn/
+  866  ll
+  867  vim jenkins-pvc-nfs.yaml 
+  868  vim jenkins2.yaml 
+  869  cd /data/
+  870  ll
+  871  cd yaml/
+  872  ll
+  873  cd Prometheus/
+  874  ll
+  875  vim prometheus-deploy.yaml 
+  876  kubectl create -f prometheus-deploy.yaml
+  877  vim prometheus-deploy.yaml 
+  878  kubectl delete -f prometheus-deploy.yaml
+  879  vim prometheus-deploy.yaml 
+  880  kubectl create -f prometheus-deploy.yaml
+  881  vim prometheus-deploy.yaml 
+  882  kubectl create -f prometheus-deploy.yaml
+  883  kubectl get pod -n kube-ops
+  884  kubectl get svc -n kube-ops
+  885  cd ..
+  886  ll
+  887  cd ..
+  888  ll
+  889  find / -name prometheus.yml
+  890  kubectl get pod -n kube-ops
+  891  kubectl get pod -n kube-ops -o wide
+  892  kubectl get svc -n kube-ops -o wide
+  893  ll
+  894  cd traefik/
+  895  ll
+  896  cd ..
+  897  ll
+  898  cd yaml/
+  899  ll
+  900  cd ingress/
+  901  ll
+  902  vim jenkins3.yaml 
+  903  vim tomcat-deployment.yaml 
+  904  vim dashboard.yaml 
+  905  vim prometheus.yaml
+  906  l
+  907  ll
+  908  cd /
+  909  ;;
+  910  ll
+  911  cd /data/
+  912  ll
+  913  cd yaml/
+  914  ll
+  915  cd Prometheus/
+  916  ll
+  917  cd /data/
+  918  ll
+  919  cd yaml/
+  920  ll
+  921  cd ingress/
+  922  ll
+  923  vim jenkins3.yaml 
+  924  kubectl get svc 
+  925  kubectl get svc -n kube-ops
+  926  kubectl get svc --name
+  927  kubectl get svc --all-namespaces
+  928  kubectl get pod --all-namespaces
+  929  kubectl get ingress --all-namespaces
+  930  ll
+  931  vim nginx.yaml 
+  932  kubectl get pod --all-namespaces -o wide
+  933  vim nginx.yaml 
+  934  ll
+  935  vim nginx-deployment.yaml 
+  936  cd /data/
+  937  ll
+  938  cd yaml/
+  939  ll
+  940  cd Prometheus/
+  941  ll
+  942  vim prometheus.yaml
+  943  kubectl apply -f prometheus.yaml 
+  944  vim prometheus.yaml
+  945  ll
+  946  cd /data/
+  947  ll
+  948  yaml/
+  949  ll
+  950  cd yaml/
+  951  ll
+  952  cd Prometheus/
+  953  ll
+  954  netstat -anpl|grep 9090
+  955  netstat -anpl|grep 443
+  956  cd ..
+  957  ll
+  958  cd jenkins/
+  959  ll
+  960  cd sjn/
+  961  ll
+  962  vim jenkins2.yaml 
+  963  cd ..
+  964  ll
+  965  cd ..
+  966  ll
+  967  cd app/
+  968  l
+  969  ll
+  970  cd ..
+  971  ll
+  972  cd share/
+  973  ll
+  974  cd ..
+  975  ll
+  976  cd ..
+  977  ll
+  978  cd k8s/
+  979  ll
+  980  cd ..
+  981  ll
+  982  pwd
+  983  cd /data/
+  984  ll
+  985  cd yaml/
+  986  ll
+  987  cd Prometheus/
+  988  ll
+  989  vim prometheus.yaml 
+  990  kubectl -apply -f prometheus.yaml 
+  991  kubectl apply -f prometheus.yaml 
+  992  vim prometheus.yaml 
+  993  kubectl apply -f prometheus.yaml 
+  994  vim prometheus.yaml 
+  995  aws
+  996  wget "https://d1010ns3oabdos0000.s3.cn-north-1.amazonaws.com.cn/temp/awscli-bundle.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=3600&X-Amz-Date=20181205T033542Z&X-Amz-SignedHeaders=host&X-Amz-Security-Token=FQoDYXdzEAQaDFzrX04MMKHFRk%2FRXyL%2FAfx2UAXSudepGThXmPW6lyTvGp8QBFajmgA8%2FKcL1IuH%2BpOE%2F%2B%2Bt9ZMsav4QHE6kVAAqG%2F5ixeCravEtGl%2BKaiv9T3t%2B1cPmqZKUsxX%2BSeTfp1xtfLz7QS2ZHUk0RBdmbYfnKBHmK0Hu6DW3g1QJ34C7uKXZh9xGEwNctWJvfzdaXfbztyfHb6L%2BASgzP%2FGR%2FfquKkXrW5rIJ4bkyl7IyL466oAHqSPSAelc6OlhS0CNk8CJH5FCahGDeMql%2BghTuG6eJm3bJC2cC1FaHu70FfJ6RS9aW97wnl2nuOfqCQG6eTLrZc0BFD%2B6gwq05NiQCbK8%2FbV9O6qCIru1t%2FAASSitjZ3gBQ%3D%3D&X-Amz-Credential=ASIA2P2ACJAZGLGMHCOJ%2F20181205%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=78ef92480a04ef09cb0051959dcadc45725326612c4fb8469f631861bcc4b401
+  997  " -O awscli-bundle.zip
+  998  curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+  999  ls
+ 1000  wget https://aws1190test.s3.cn-northwest-1.amazonaws.com.cn/Amazon+Virtual+Private+Cloud+(VPC).pdf
+ 1001  ls
+ 1002  cd Ace/
+ 1003  ls
+ 1004  ll
+ 1005  cd k8s-install-scripts/
+ 1006  ls
+ 1007  ll
+ 1008  vim README.md 
+ 1009  ls
+ 1010  cd ..
+ 1011  ls
+ 1012  ll
+ 1013  cd ..
+ 1014  ls
+ 1015  ll
+ 1016  cd git/
+ 1017  ls
+ 1018  cd ..
+ 1019  ls
+ 1020  cd root/
+ 1021  ls
+ 1022  ll
+ 1023  cd install/
+ 1024  ls
+ 1025  cd ..
+ 1026  ls
+ 1027  cd ssl/
+ 1028  ls
+ 1029  cd ..
+ 1030  ls
+ 1031  cd ..
+ 1032  ;s
+ 1033  ls
+ 1034  cd ..
+ 1035  ls
+ 1036  cd /data/
+ 1037  ls
+ 1038  du -sh * 
+ 1039  cd etcd/
+ 1040  ls
+ 1041  ll
+ 1042  cd data/
+ 1043  ls
+ 1044  cd ..
+ 1045  ls
+ 1046  cd ..
+ 1047  ls
+ 1048  ll
+ 1049  cd harbor/
+ 1050  ls
+ 1051  cd registry/
+ 1052  ls
+ 1053  cd ..
+ 1054  ls
+ 1055  cd ..
+ 1056  ls
+ 1057  cd k
+ 1058  cd k8s/
+ 1059  ls
+ 1060  ll
+ 1061  cd jenkins4/
+ 1062  ls
+ 1063  ll
+ 1064  cd ..
+ 1065  ls
+ 1066  cd ..
+ 1067  ls
+ 1068  cd kubernetes/
+ 1069  ls
+ 1070  cd conf/
+ 1071  ls
+ 1072  cd ..
+ 1073  ls
+ 1074  cd ..
+ 1075  ls
+ 1076  cd sjn/
+ 1077  ls
+ 1078  cat deploy.yaml 
+ 1079  cat tomcat-deployment.yaml
+ 1080  cd ..
+ 1081  ls
+ 1082  cd traefik/
+ 1083  LS
+ 1084  ls
+ 1085  ll
+ 1086  cd ..
+ 1087  ls
+ 1088  cd yaml/
+ 1089  ls
+ 1090  ll
+ 1091  du -sh * 
+ 1092  cd harbor/
+ 1093  ls
+ 1094  cd harbor
+ 1095  ls
+ 1096  ll
+ 1097  du -sh * 
+ 1098  mv harbor.v1.8.2.tar.gz  /data/software/
+ 1099  ls
+ 1100  cd ..
+ 1101  ls
+ 1102  cd ..
+ 1103  ls
+ 1104  du -sh * 
+ 1105  cd harbor/
+ 1106  ls
+ 1107  du -sh * 
+ 1108  cd harbor_DB/
+ 1109  ls
+ 1110  cd harbor
+ 1111  ls
+ 1112  du -sh * 
+ 1113  mv harbor.v1.2.0.tar.gz /data/software/
+ 1114  ls
+ 1115  cd ..
+ 1116  ls
+ 1117  ll
+ 1118  du -sh * 
+ 1119  mv harbor-offline-installer-v1.2.0.tgz /data/software/
+ 1120  ls
+ 1121  cd ..
+ 1122  ls
+ 1123  ll
+ 1124  cd ..
+ 1125  ls
+ 1126  du -sh 
+ 1127  cd jenkins/
+ 1128  ls
+ 1129  ll
+ 1130  du -sh * 
+ 1131  cd sjn/
+ 1132  ls
+ 1133  ll
+ 1134  mv plugins.tar.gz  /data/software/
+ 1135  cd ..
+ 1136  ls
+ 1137  cd ..
+ 1138  ls
+ 1139  cd ..
+ 1140  ls
+ 1141  du -sh * 
+ 1142  cd yaml/
+ 1143  ls
+ 1144  du -sh * 
+ 1145  cd NFS/
+ 1146  ls
+ 1147  du -sh * 
+ 1148  cd external-storage/
+ 1149  ls
+ 1150  ll
+ 1151  cd ..
+ 1152  ls
+ 1153  cd ..
+ 1154  ls
+ 1155  du -sh * 
+ 1156  cd harbor/
+ 1157  ls
+ 1158  du -sh * 
+ 1159  cd sjn/
+ 1160  ls
+ 1161  du -sh * 
+ 1162  cd ..
+ 1163  ls
+ 1164  mv sjn/ /data/software/
+ 1165  ls
+ 1166  du -sh * 
+ 1167  cd harbor
+ 1168  ls
+ 1169  ll
+ 1170  cd ..
+ 1171  ls
+ 1172  cd ..
+ 1173  ls
+ 1174  git init
+ 1175  git commit -m "first commit"
+ 1176  git config --global user.email "wdawdabj@cn.ibm.com"
+ 1177  git config --global user.name "Da Wang"
+ 1178  git commit -m "first commit"
+ 1179  git add . 
+ 1180  git commit -m "first commit"
+ 1181  git remote add origin https://github.com/Ace-da/k8s-yaml.git
+ 1182  git push -u origin master
+ 1183  ls
+ 1184  cd ..
+ 1185  ls
+ 1186  cd yaml/
+ 1187  ls
+ 1188  history  > history.log
